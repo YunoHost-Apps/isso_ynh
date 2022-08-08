@@ -110,6 +110,9 @@ ynh_add_nginx_config
 
 pushd $final_path
 	ynh_exec_as $app python3 -m venv $final_path/venv
+	ynh_exec_as $app "$final_path/venv/bin/pip" install --upgrade pip
+	ynh_exec_as $app "$final_path/venv/bin/pip" install --upgrade setuptools
+	ynh_exec_as $app "$final_path/venv/bin/pip" install --upgrade MarkupSafe
 	ynh_exec_as $app "$final_path/venv/bin/pip" install isso gunicorn
 popd
 
