@@ -1,6 +1,6 @@
 {
     "name": "Isso",
-    "id": "example",
+    "id": "isso",
     "packaging_format": 1,
     "description": {
         "en": " lightweight commenting server written in Python and JavaScript",
