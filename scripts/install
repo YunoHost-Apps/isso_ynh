@@ -24,7 +24,7 @@ ynh_abort_if_errors
 #=================================================
 
 domain=$YNH_APP_ARG_DOMAIN
-path_url=$YNH_APP_ARG_PATH
+path_url=/
 password=$YNH_APP_ARG_PASSWORD
 is_public=1
 admin=$YNH_APP_ARG_ADMIN
