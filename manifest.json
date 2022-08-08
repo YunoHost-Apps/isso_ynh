@@ -42,7 +42,7 @@
             },
             {
                 "name": "target_domain",
-                "type": "strting",
+                "type": "string",
                 "ask": {
                     "en": "your website or blog (not the location of Isso!)"
                 },
