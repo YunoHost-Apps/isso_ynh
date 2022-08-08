@@ -76,9 +76,7 @@ then
 	ynh_script_progression --message="Upgrading source files..." --time --weight=1
 
 	pushd $final_path
-		source $final_path/venv/bin/activate
-		pip install --upgrade pip
-		ynh_exec_warn_less pip install --upgrade isso gunicorn
+		ynh_exec_as $app "$final_path/venv/bin/pip" install --upgrade isso gunicorn
 	popd
 fi
 
