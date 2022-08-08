@@ -35,12 +35,6 @@
                 "type": "domain"
             },
             {
-                "name": "path",
-                "type": "path",
-                "example": "/isso",
-                "default": "/isso"
-            },
-            {
                 "name": "target_domain",
                 "type": "string",
                 "ask": {
