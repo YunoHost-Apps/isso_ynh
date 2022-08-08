@@ -1,9 +1,15 @@
-Some long and extensive description of what the app is and does, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Isso – *Ich schrei sonst* – is a lightweight commenting server written in
+Python and JavaScript. It aims to be a drop-in replacement for
+[Disqus](http://disqus.com).
 
 ### Features
 
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco ;
-- Laboris nisi ut aliquip ex ea commodo consequat ;
-- Duis aute irure dolor in reprehenderit in voluptate ;
-- Velit esse cillum dolore eu fugiat nulla pariatur ;
-- Excepteur sint occaecat cupidatat non proident, sunt in culpa."
+- **Comments written in Markdown**  
+  Users can edit or delete own comments (within 15 minutes by default).
+  Comments in moderation queue are not publicly visible before activation.
+- **SQLite backend**  
+  *Because comments are not Big Data.*
+- **Disqus & WordPress Import**  
+  You can migrate your Disqus/WordPress comments without any hassle.
+- **Configurable JS client**  
+  Embed a single JS file, 65kB (20kB gzipped) and you are done.
