@@ -104,8 +104,6 @@ ynh_add_nginx_config
 #=================================================
 ynh_script_progression --message="Updating a configuration file..." --time --weight=1
 
-ynh_add_config --template="some_config_file" --destination="$final_path/some_config_file"
-
 ynh_add_config --template="isso.cfg" --destination="$final_path/isso.cfg"
 
 chmod 400 "$final_path/isso.cfg"
