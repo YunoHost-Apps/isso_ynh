@@ -63,6 +63,17 @@ chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
 
 #=================================================
+# Create blank log file
+#=================================================
+
+mkdir -p "/var/log/$app"
+
+chmod 750 "/var/log/$app"
+chmod -R o-rwx "$final_path"
+
+ynh_exec_as $app touch "/var/log/$app/$app.log"
+
+#=================================================
 # RESTORE THE DATA DIRECTORY
 #=================================================
 ynh_script_progression --message="Restoring the data directory..." --time --weight=1
