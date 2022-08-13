@@ -69,7 +69,7 @@ chown -R $app:www-data "$final_path"
 mkdir -p "/var/log/$app"
 
 chmod 750 "/var/log/$app"
-chmod -R o-rwx "$final_path"
+chmod -R o-rwx "/var/log/$app"
 
 ynh_exec_as $app touch "/var/log/$app/$app.log"
 
