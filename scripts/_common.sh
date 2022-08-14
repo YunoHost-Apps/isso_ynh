@@ -5,7 +5,7 @@
 #=================================================
 
 # dependencies used by the app (must be on a single line)
-pkg_dependencies="python3-setuptools python3-virtualenv python3-dev"
+pkg_dependencies="git curl python3 python3-pip python3-venv libpq-dev libsasl2-dev python3-dev libssl-dev libffi-dev python3-cffi"
 
 #=================================================
 # PERSONAL HELPERS

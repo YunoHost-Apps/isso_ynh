@@ -7,8 +7,7 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__FINALPATH__/
-Environment="ISSO_SETTINGS=__FINALPATH__/isso.cfg"
-ExecStart=__FINALPATH__/venv/bin/gunicorn -b localhost:__PORT__ -w 4 --preload isso.run
+ExecStart=__FINALPATH__/venv/bin/isso -c __FINALPATH__/isso.cfg run
 StandardOutput=append:/var/log/__APP__/__APP__.log
 StandardError=inherit
 

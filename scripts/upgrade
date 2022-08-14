@@ -20,6 +20,7 @@ domain=$(ynh_app_setting_get --app=$app --key=domain)
 path_url=$(ynh_app_setting_get --app=$app --key=path)
 admin=$(ynh_app_setting_get --app=$app --key=admin)
 final_path=$(ynh_app_setting_get --app=$app --key=final_path)
+datadir=$(ynh_app_setting_get --app=$app --key=datadir)
 targetdomain=$(ynh_app_setting_get --app=$app --key=targetdomain)
 adminmail=$(ynh_app_setting_get --app=$app --key=adminmail)
 port=$(ynh_app_setting_get --app=$app --key=port)
@@ -103,8 +104,6 @@ ynh_add_nginx_config
 # UPDATE A CONFIG FILE
 #=================================================
 ynh_script_progression --message="Updating a configuration file..." --time --weight=1
-
-ynh_add_config --template="some_config_file" --destination="$final_path/some_config_file"
 
 ynh_add_config --template="isso.cfg" --destination="$final_path/isso.cfg"
 
