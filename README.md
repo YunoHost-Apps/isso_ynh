@@ -33,7 +33,6 @@ Python and JavaScript. It aims to be a drop-in replacement for
 
 **Shipped version:** 0.13.0~ynh1
 
-
 **Demo:** https://isso-comments.de
 
 ## Screenshots

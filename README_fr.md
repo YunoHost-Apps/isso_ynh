@@ -31,8 +31,7 @@ Python and JavaScript. It aims to be a drop-in replacement for
 - **Configurable JS client**  
   Embed a single JS file, 65kB (20kB gzipped) and you are done.
 
-**Version incluse :** 0.13.0~ynh1
-
+**Version incluse :** 0.13.0~ynh1
 
 **Démo :** https://isso-comments.de
 
