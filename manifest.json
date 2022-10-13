@@ -3,8 +3,8 @@
     "id": "isso",
     "packaging_format": 1,
     "description": {
-        "en": " lightweight commenting server written in Python and JavaScript",
-        "fr": "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
+        "en": "A lightweight commenting server written in Python and JavaScript",
+        "fr": "Un système de commentaire léger en Python et Javascript"
     },
     "version": "0.13.0~ynh1",
     "url": "https://isso-comments.de",
