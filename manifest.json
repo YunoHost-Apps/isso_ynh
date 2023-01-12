@@ -3,8 +3,8 @@
     "id": "isso",
     "packaging_format": 1,
     "description": {
-        "en": "A lightweight commenting server written in Python and JavaScript",
-        "fr": "Un système de commentaire léger en Python et Javascript"
+        "en": "Lightweight commenting server",
+        "fr": "Système de commentaire léger"
     },
     "version": "0.13.0~ynh1",
     "url": "https://isso-comments.de",
@@ -22,7 +22,7 @@
         "email": "isso@navan.email"
     },
     "requirements": {
-        "yunohost": ">= 4.3.0"
+        "yunohost": ">= 11.0.9"
     },
     "multi_instance": true,
     "services": [
