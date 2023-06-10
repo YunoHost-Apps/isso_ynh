@@ -34,14 +34,6 @@ Isso – *Ich schrei sonst* – is a lightweight commenting server written in Py
 
 ![Capture d’écran de Isso](./doc/screenshots/example.jpg)
 
-## Avertissements / informations importantes
-
-
-* Extra information
-    * The admin interface for the app is `https://__DOMAIN__/admin`
-    * One app instance can only be installed for one domain
-    * Please do not add a trailing `/` in the target_domain
-
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://isso-comments.de>
