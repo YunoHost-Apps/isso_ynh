@@ -20,38 +20,40 @@ cpe = "???" # FIXME: optional but recommended if relevant, this is meant to cont
 fund = "???" # FIXME: optional but recommended (or remove if irrelevant / not applicable). This is meant to be an URL where people can financially support this app, especially when its development is based on volunteers and/or financed by its community. YunoHost may later advertise it in the webadmin.
 
 [integration]
-yunohost = ">= 11.0.9"
-architectures = "all" # FIXME: can be replaced by a list of supported archs using the dpkg --print-architecture nomenclature (amd64/i386/armhf/arm64), for example: ["amd64", "i386"]
+yunohost = ">= 11.1.20"
+architectures = "all"
 multi_instance = true
-ldap = "?" # FIXME: replace with true, false, or "not_relevant". Not to confuse with the "sso" key : the "ldap" key corresponds to wether or not a user *can* login on the app using its YunoHost credentials.
-sso = "?" # FIXME: replace with true, false, or "not_relevant". Not to confuse with the "ldap" key : the "sso" key corresponds to wether or not a user is *automatically logged-in* on the app when logged-in on the YunoHost portal.
-disk = "50M" # FIXME: replace with an **estimate** minimum disk requirement. e.g. 20M, 400M, 1G, ...
-ram.build = "50M" # FIXME: replace with an **estimate** minimum ram requirement. e.g. 50M, 400M, 1G, ...
-ram.runtime = "50M" # FIXME: replace with an **estimate** minimum ram requirement. e.g. 50M, 400M, 1G, ...
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
 
 [install]
     [install.domain]
-    # this is a generic question - ask strings are automatically handled by Yunohost's core
     type = "domain"
     full_domain = true
 
     [install.target_domain]
-    ask.en = "your website or blog (not the location of Isso!)"
+    ask.en = "your website or blog (not the location of Isso!). Please do not add a trailing `/` in the target_domain"
+    ask.fr = "votre site Web ou votre blog (pas l'emplacement d'Isso !). Veuillez ne pas ajouter de `/` à la fin du domaine_cible"
     type = "string"
-    example = "https://someotherwebsite.com/"
+    example = "https://someotherwebsite.com"
 
     [install.admin]
-    # this is a generic question - ask strings are automatically handled by Yunohost's core
     help.en = "User who will receive moderation emails"
+    help.fr = "Utilisateur qui recevra les emails de modération"
     type = "user"
 
     [install.password]
-    # this is a generic question - ask strings are automatically handled by Yunohost's core
-    help.en = "Password for the admin interface"
-    help.fr = "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
+    help.en = "Password for the admin interface."
+    help.fr = "Mot de passe pour l'interface d'administration."
     type = "password"
 
 [resources]
+
+    [resources.ports]
+
     [resources.system_user]
 
     [resources.install_dir]
@@ -60,3 +62,12 @@ ram.runtime = "50M" # FIXME: replace with an **estimate** minimum ram requiremen
 
     [resources.permissions]
     main.url = "/"
+    admin.url = "/admin"
+    admin.allowed = "admins"
+    api.url="/api"
+    api.allowed="visitors"
+    api.show_tile="false"
+    api.protected="true"
+
+    [resources.apt]
+    packages = "git curl python3 python3-pip python3-venv libpq-dev libsasl2-dev python3-dev libssl-dev libffi-dev python3-cffi"
