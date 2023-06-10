@@ -16,15 +16,14 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Isso – *Ich schrei sonst* – is a lightweight commenting server written in Python and JavaScript. It aims to be a drop-in replacement for
-[Disqus](http://disqus.com).
+Isso – *Ich schrei sonst* – est un serveur de commentaires léger écrit en Python et JavaScript. Il vise à être un remplacement direct pour [Disqus](http://disqus.com).
 
-### Features
+### Caractéristiques
 
-- Comments written in Markdown
-- SQLite backend
-- Disqus & WordPress Import
-- Configurable JS client 
+- Commentaires rédigés en Markdown
+- Back-end SQLite
+- Importation Disqus & WordPress
+- Client JS paramétrable
 
 **Version incluse :** 0.13.0~ynh1
 
