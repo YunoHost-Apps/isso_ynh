@@ -16,8 +16,6 @@ demo = "https://isso-comments.de"
 admindoc = "https://isso-comments.de/docs/reference/server-config/"
 userdoc = "https://isso-comments.de/docs/reference/client-config/"
 code = "https://github.com/posativ/isso"
-cpe = "???" # FIXME: optional but recommended if relevant, this is meant to contain the Common Platform Enumeration, which is sort of a standard id for applications defined by the NIST. In particular, Yunohost may use this is in the future to easily track CVE (=security reports) related to apps. The CPE may be obtained by searching here: https://nvd.nist.gov/products/cpe/search. For example, for Nextcloud, the CPE is 'cpe:2.3:a:nextcloud:nextcloud' (no need to include the version number)
-fund = "???" # FIXME: optional but recommended (or remove if irrelevant / not applicable). This is meant to be an URL where people can financially support this app, especially when its development is based on volunteers and/or financed by its community. YunoHost may later advertise it in the webadmin.
 
 [integration]
 yunohost = ">= 11.1.20"
@@ -64,10 +62,10 @@ ram.runtime = "50M"
     main.url = "/"
     admin.url = "/admin"
     admin.allowed = "admins"
-    api.url="/api"
-    api.allowed="visitors"
-    api.show_tile="false"
-    api.protected="true"
+    api.url = "/api"
+    api.allowed = "visitors"
+    api.show_tile = false
+    api.protected = true
 
     [resources.apt]
     packages = "git curl python3 python3-pip python3-venv libpq-dev libsasl2-dev python3-dev libssl-dev libffi-dev python3-cffi"
