@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Isso for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/isso.svg)](https://dash.yunohost.org/appci/app/isso) ![Working status](https://ci-apps.yunohost.org/ci/badges/isso.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/isso.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/isso.svg)](https://dash.yunohost.org/appci/app/isso) ![Working status](https://ci-apps.yunohost.org/ci/badges/isso.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/isso.maintain.svg)
+
 [![Install Isso with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=isso)
 
 *[Lire ce readme en français.](./README_fr.md)*
