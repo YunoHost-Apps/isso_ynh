@@ -13,7 +13,7 @@ source /usr/share/yunohost/helpers
 # RETRIEVE ARGUMENTS FROM THE MANIFEST
 #=================================================
 
-adminmail=$(ynh_user_get_info --username=$admin --key=mail)
+email=$(ynh_user_get_info --username=$admin --key=mail)
 
 #=================================================
 # Setup Final Path
@@ -66,7 +66,7 @@ ynh_add_systemd_config
 # Use logrotate to manage application logfile(s)
 ynh_use_logrotate
 
-yunohost service add $app --description="Isso - a commenting server" --log="/var/log/$app/$app.log"
+yunohost service add $app --description="Lightweight commenting server" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
@@ -74,7 +74,7 @@ yunohost service add $app --description="Isso - a commenting server" --log="/var
 ynh_script_progression --message="Starting a systemd service..." --weight=1
 
 # Start a systemd service
-ynh_systemd_action --service_name=$app --action="start" --log_path="/var/log/$app/$app.log"
+ynh_systemd_action --service_name=$app --action="start" --log_path="systemd"
 
 #=================================================
 # END OF SCRIPT
