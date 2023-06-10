@@ -6,8 +6,8 @@ After=network.target
 Type=simple
 User=__APP__
 Group=__APP__
-WorkingDirectory=__FINALPATH__/
-ExecStart=__FINALPATH__/venv/bin/isso -c __FINALPATH__/isso.cfg run
+WorkingDirectory=__INSTALL_DIR__/
+ExecStart=__INSTALL_DIR__/venv/bin/isso -c __INSTALL_DIR__/isso.cfg run
 StandardOutput=append:/var/log/__APP__/__APP__.log
 StandardError=inherit
 
