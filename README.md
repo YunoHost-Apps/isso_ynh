@@ -32,7 +32,7 @@ Python and JavaScript. It aims to be a drop-in replacement for
 - **Configurable JS client**  
   Embed a single JS file, 65kB (20kB gzipped) and you are done.
 
-**Shipped version:** 0.13.0~ynh1
+**Shipped version:** 0.13.0~ynh2
 
 **Demo:** https://isso-comments.de
 
