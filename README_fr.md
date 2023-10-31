@@ -56,7 +56,7 @@ Python and JavaScript. It aims to be a drop-in replacement for
 * Documentation officielle utilisateur : <https://isso-comments.de/docs/reference/client-config/>
 * Documentation officielle de l’admin : <https://isso-comments.de/docs/reference/server-config/>
 * Dépôt de code officiel de l’app : <https://github.com/posativ/isso>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_isso>
+* YunoHost Store: <https://apps.yunohost.org/app/isso>
 * Signaler un bug : <https://github.com/YunoHost-Apps/isso_ynh/issues>
 
 ## Informations pour les développeurs
