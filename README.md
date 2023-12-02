@@ -40,7 +40,7 @@ Isso – *Ich schrei sonst* – is a lightweight commenting server written in Py
 * Official user documentation: <https://isso-comments.de/docs/reference/client-config/>
 * Official admin documentation: <https://isso-comments.de/docs/reference/server-config/>
 * Upstream app code repository: <https://github.com/posativ/isso>
-* YunoHost documentation for this app: <https://yunohost.org/app_isso>
+* YunoHost Store: <https://apps.yunohost.org/app/isso>
 * Report a bug: <https://github.com/YunoHost-Apps/isso_ynh/issues>
 
 ## Developer info
