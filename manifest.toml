@@ -18,11 +18,14 @@ userdoc = "https://isso-comments.de/docs/reference/client-config/"
 code = "https://github.com/posativ/isso"
 
 [integration]
-yunohost = ">= 11.1.20"
+yunohost = ">= 11.2"
 architectures = "all"
 multi_instance = true
+
 ldap = false
+
 sso = false
+
 disk = "50M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -30,7 +33,6 @@ ram.runtime = "50M"
 [install]
     [install.domain]
     type = "domain"
-    full_domain = true
 
     [install.target_domain]
     ask.en = "your website or blog (not the location of Isso!). Please do not add a trailing `/` in the target_domain"
@@ -68,4 +70,4 @@ ram.runtime = "50M"
     api.protected = true
 
     [resources.apt]
-    packages = "git curl python3 python3-pip python3-venv libpq-dev libsasl2-dev python3-dev libssl-dev libffi-dev python3-cffi"
+    packages = "git, curl, python3, python3-pip, python3-venv, libpq-dev, libsasl2-dev, python3-dev, libssl-dev, libffi-dev, python3-cffi"
