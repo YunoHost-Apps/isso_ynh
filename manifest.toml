@@ -34,6 +34,10 @@ ram.runtime = "50M"
     [install.domain]
     type = "domain"
 
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
     [install.target_domain]
     ask.en = "your website or blog (not the location of Isso!). Please do not add a trailing `/` in the target_domain"
     ask.fr = "votre site Web ou votre blog (pas l'emplacement d'Isso !). Veuillez ne pas ajouter de `/` à la fin du domaine_cible"
