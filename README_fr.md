@@ -25,7 +25,7 @@ Isso – *Ich schrei sonst* – est un serveur de commentaires léger écrit en 
 - Importation Disqus & WordPress
 - Client JS paramétrable
 
-**Version incluse :** 0.13.0~ynh1
+**Version incluse :** 0.13.0~ynh3
 
 **Démo :** https://isso-comments.de
 
