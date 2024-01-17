@@ -1,0 +1,77 @@
+packaging_format = 2
+
+id = "isso"
+name = "Isso"
+description.en = "Lightweight commenting server"
+description.fr = "Système de commentaire léger"
+
+version = "0.13.0~ynh3"
+
+maintainers = ["Navan Chauhan"]
+
+[upstream]
+license = "MIT"
+website = "https://isso-comments.de"
+demo = "https://isso-comments.de"
+admindoc = "https://isso-comments.de/docs/reference/server-config/"
+userdoc = "https://isso-comments.de/docs/reference/client-config/"
+code = "https://github.com/posativ/isso"
+
+[integration]
+yunohost = ">= 11.2"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+    [install.target_domain]
+    ask.en = "your website or blog (not the location of Isso!). Please do not add a trailing `/` in the target_domain"
+    ask.fr = "votre site Web ou votre blog (pas l'emplacement d'Isso !). Veuillez ne pas ajouter de `/` à la fin du domaine_cible"
+    type = "string"
+    example = "https://someotherwebsite.com"
+
+    [install.admin]
+    help.en = "User who will receive moderation emails"
+    help.fr = "Utilisateur qui recevra les emails de modération"
+    type = "user"
+
+    [install.password]
+    help.en = "Password for the admin interface."
+    help.fr = "Mot de passe pour l'interface d'administration."
+    type = "password"
+
+[resources]
+
+    [resources.ports]
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.data_dir]
+
+    [resources.permissions]
+    main.url = "/"
+    admin.url = "/admin"
+    admin.allowed = "admins"
+    api.url = "/api"
+    api.allowed = "visitors"
+    api.show_tile = false
+    api.protected = true
+
+    [resources.apt]
+    packages = "git, curl, python3, python3-pip, python3-venv, libpq-dev, libsasl2-dev, python3-dev, libssl-dev, libffi-dev, python3-cffi"
