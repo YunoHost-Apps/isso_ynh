@@ -5,7 +5,7 @@ EZ editatu eskuz.
 
 # Isso YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/isso.svg)](https://dash.yunohost.org/appci/app/isso) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/isso.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/isso.maintain.svg)
+[![Integrazio maila](https://dash.yunohost.org/integration/isso.svg)](https://ci-apps.yunohost.org/ci/apps/isso/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/isso.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/isso.maintain.svg)
 
 [![Instalatu Isso YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=isso)
 
@@ -26,7 +26,7 @@ Isso – *Ich schrei sonst* – is a lightweight commenting server written in Py
 - Disqus & WordPress Import
 - Configurable JS client 
 
-**Paketatutako bertsioa:** 0.13.0~ynh3
+**Paketatutako bertsioa:** 0.13.0~ynh4
 
 **Demoa:** <https://isso-comments.de>
 

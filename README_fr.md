@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # Isso pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/isso.svg)](https://dash.yunohost.org/appci/app/isso) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/isso.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/isso.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/isso.svg)](https://ci-apps.yunohost.org/ci/apps/isso/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/isso.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/isso.maintain.svg)
 
 [![Installer Isso avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=isso)
 
@@ -25,7 +25,7 @@ Isso – *Ich schrei sonst* – est un serveur de commentaires léger écrit en 
 - Importation Disqus & WordPress
 - Client JS paramétrable
 
-**Version incluse :** 0.13.0~ynh3
+**Version incluse :** 0.13.0~ynh4
 
 **Démo :** <https://isso-comments.de>
 
