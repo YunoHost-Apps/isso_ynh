@@ -5,7 +5,7 @@ No se debe editar a mano.
 
 # Isso para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/isso.svg)](https://dash.yunohost.org/appci/app/isso) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/isso.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/isso.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/isso.svg)](https://ci-apps.yunohost.org/ci/apps/isso/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/isso.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/isso.maintain.svg)
 
 [![Instalar Isso con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=isso)
 
@@ -26,7 +26,7 @@ Isso – *Ich schrei sonst* – is a lightweight commenting server written in Py
 - Disqus & WordPress Import
 - Configurable JS client 
 
-**Versión actual:** 0.13.0~ynh3
+**Versión actual:** 0.13.0~ynh4
 
 **Demo:** <https://isso-comments.de>
 
@@ -45,7 +45,7 @@ Isso – *Ich schrei sonst* – is a lightweight commenting server written in Py
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/isso_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/isso_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
