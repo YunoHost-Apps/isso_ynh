@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Isso
 
-[![集成程度](https://dash.yunohost.org/integration/isso.svg)](https://dash.yunohost.org/appci/app/isso) ![工作状态](https://ci-apps.yunohost.org/ci/badges/isso.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/isso.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/isso.svg)](https://ci-apps.yunohost.org/ci/apps/isso/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/isso.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/isso.maintain.svg)
 
 [![使用 YunoHost 安装 Isso](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=isso)
 
@@ -26,7 +26,7 @@ Isso – *Ich schrei sonst* – is a lightweight commenting server written in Py
 - Disqus & WordPress Import
 - Configurable JS client 
 
-**分发版本：** 0.13.0~ynh3
+**分发版本：** 0.13.0~ynh4
 
 **演示：** <https://isso-comments.de>
 
