@@ -26,7 +26,7 @@ Isso – *Ich schrei sonst* – is a lightweight commenting server written in Py
 - Disqus & WordPress Import
 - Configurable JS client 
 
-**分发版本：** 0.13.0~ynh4
+**分发版本：** 0.13.0~ynh5
 
 **演示：** <https://isso-comments.de>
 
