@@ -5,7 +5,7 @@ name = "Isso"
 description.en = "Lightweight commenting server"
 description.fr = "Système de commentaire léger"
 
-version = "0.13.0~ynh4"
+version = "0.13.0~ynh5"
 
 maintainers = ["Navan Chauhan"]
 
@@ -18,12 +18,11 @@ userdoc = "https://isso-comments.de/docs/reference/client-config/"
 code = "https://github.com/posativ/isso"
 
 [integration]
-yunohost = ">= 11.2"
+yunohost = ">= 11.2.30"
+helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
-
 ldap = false
-
 sso = false
 
 disk = "50M"
