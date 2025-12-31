@@ -18,7 +18,7 @@ userdoc = "https://isso-comments.de/docs/reference/client-config/"
 code = "https://github.com/posativ/isso"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.1.38"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
