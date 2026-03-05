@@ -23,6 +23,10 @@ chown -R $app:www-data "$install_dir"
 pushd "$install_dir"
     ynh_exec_as_app python3 -m venv "$install_dir/venv"
     ynh_hide_warnings ynh_exec_as_app "$install_dir/venv/bin/pip" install --upgrade pip
+    
+    # Temporary workaround for the missing pkg_resources (as of isso 0.13.0)
+    ynh_hide_warnings ynh_exec_as_app "$install_dir/venv/bin/pip" install setuptools==80.0.0
+    
     ynh_hide_warnings ynh_exec_as_app "$install_dir/venv/bin/pip" install isso=="$(ynh_app_upstream_version)"
 
     ynh_safe_rm "$install_dir/.cache/pip"
