@@ -5,7 +5,7 @@ name = "Isso"
 description.en = "Lightweight commenting server"
 description.fr = "Système de commentaire léger"
 
-version = "0.13.2~ynh1"
+version = "0.13.1~ynh1"
 
 maintainers = ["Navan Chauhan"]
 
