@@ -27,7 +27,7 @@ pushd "$install_dir"
     ynh_hide_warnings ynh_exec_as_app "$install_dir/venv/bin/pip" install isso=="$(ynh_app_upstream_version)"
 
     ynh_safe_rm "$install_dir/.cache/pip"
-    chown -R "$app:www-data" "$install_dir"
+    chown -R "$app:www-data" "$data_dir"
 popd
 
 #=================================================
